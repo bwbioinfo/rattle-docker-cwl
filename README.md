@@ -1,4 +1,4 @@
-[![Build and Push Docker Image](https://github.com/bwbioinfo/tool-docker-cwl/actions/workflows/build-and-push.yml/badge.svg)](https://github.com/bwbioinfo/tool-docker-cwl/actions/workflows/build-and-push.yml)
+[![Build and Test Docker Image](https://github.com/bwbioinfo/rattle-docker-cwl/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/bwbioinfo/rattle-docker-cwl/actions/workflows/build-and-test.yml)
 
 # rattle-docker-cwl
 

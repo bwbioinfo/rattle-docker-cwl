@@ -1,17 +1,14 @@
-FROM ubuntu:24.04
+FROM ubuntu:20.04
 
 RUN apt-get update && apt-get install -y \
-    build-essential \
-    cmake \
+    build-essential
+
+RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install tzdata
+
+RUN apt-get update && apt-get install -y \
     git \
-    libboost-all-dev \
-    libeigen3-dev \
-    libgsl-dev \
-    libhdf5-dev \
-    libtbb-dev \
-    python3 \
-    python3-pip \
-    wget
+    zlib1g-dev \ 
+    cmake
 
 WORKDIR /opt/
 
